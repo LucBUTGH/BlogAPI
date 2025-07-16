@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "short_desc": {
+      "type": "string"
+    },
+    "tags": {
+      "displayName": "Tag",
+      "type": "component",
+      "repeatable": true,
+      "component": "article.tag"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}
