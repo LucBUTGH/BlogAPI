@@ -36,6 +36,9 @@
     },
     "time_read": {
       "type": "integer"
+    },
+    "title_slug": {
+      "type": "string"
     }
   }
 }
