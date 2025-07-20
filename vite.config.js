@@ -1,9 +1,9 @@
-module.exports = (config) => {
+export default (config) => {
   // Configuration directe sans mergeConfig
   config.server = {
     host: true,
     port: config.server?.port || 1337,
-    allowedHosts: ["blogapi-m37t.onrender.com", "localhost"],
+    allowedHosts: true,
   };
 
   config.resolve = {
