@@ -398,7 +398,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     short_desc: Schema.Attribute.String;
-    source: Schema.Attribute.String;
+    source: Schema.Attribute.Component<'article.source', true>;
     tags: Schema.Attribute.Component<'article.tag', true>;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;

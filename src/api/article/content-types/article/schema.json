@@ -30,7 +30,9 @@
       "type": "date"
     },
     "source": {
-      "type": "string"
+      "type": "component",
+      "repeatable": true,
+      "component": "article.source"
     }
   }
 }
