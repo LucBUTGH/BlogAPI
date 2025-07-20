@@ -400,6 +400,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     short_desc: Schema.Attribute.String;
     source: Schema.Attribute.Component<'article.source', true>;
     tags: Schema.Attribute.Component<'article.tag', true>;
+    time_read: Schema.Attribute.Integer;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
