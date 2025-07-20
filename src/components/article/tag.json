@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_article_tags",
+  "info": {
+    "displayName": "Tag",
+    "icon": "priceTag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    }
+  }
+}
